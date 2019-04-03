@@ -24,9 +24,9 @@ const Courses = ({ data }) => (
     <div className="title">
       <h3>Selected Courses</h3>
     </div>
-    <ul className="course-list">
-      {getRows(data)}
-    </ul>
+    <div className="course-list">
+        {getRows(data)}
+    </div>
   </div>
 );
 

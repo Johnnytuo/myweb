@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import Helmet from 'react-helmet';
 
 import Main from '../layouts/Main';
@@ -14,6 +14,7 @@ import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
+import pdf from '../../dist/images/resume.pdf';
 
 const sections = [
   'Education',
@@ -29,7 +30,7 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2><Link to="resume">Resume</Link></h2>
+          <h2><a href={pdf} target="_blank">Resume  (pdf download)</a></h2>
           <div className="link-container">
             {sections.map(sec => (
               <h4 key={sec}>

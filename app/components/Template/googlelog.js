@@ -38,13 +38,19 @@ render() {
 
   if(!this.state.isLoggedIn){
     this.content =(
+      <div className = "google">
       <GoogleLogin
       clientId="430049250727-ta4ftrgclnubm6nb3lf2sm8ub0rk39ea.apps.googleusercontent.com" //CLIENTID NOT CREATED YET
+      render={renderProps => (
+        <button onClick={renderProps.onClick} disabled={renderProps.disabled}>Please login google account to see my stats</button>
+      )}
       buttonText="LOGIN WITH GOOGLE"
       onSuccess={this.responseGoogle}  
       onFailure={this.responseGoogle}
       callback={this.responseGoogle}
+      cookiePolicy={'single_host_origin'}
       />
+      </div>
     )
   }else{
     this.content =(
@@ -57,7 +63,7 @@ render() {
               <h2><Link to="/stats">Stats</Link></h2>
             </div>
           </header>
-          <button onClick={this.logout} className="button">Log out</button>    
+          {/* <button onClick={this.logout} className="button">Log out</button>     */}
           <Personal />
           <Site />
         </article>
