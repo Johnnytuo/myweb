@@ -14,7 +14,7 @@ import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
-import pdf from '../../dist/images/resume.pdf';
+import pdf from '../../public/images/resume.pdf';
 import { PDFReader } from 'react-read-pdf';
 
 const sections = [
