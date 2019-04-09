@@ -27,14 +27,8 @@ class Main extends Component {
 
   render() {
     return (
-
       <div id="wrapper">
-        
-        <Helmet>
-
-        <title>Tuo Shi</title>
-        <meta name="google-site-verification" content="3hhTPiEm20V78qyFqKu2YeGVRuQS0ShDwWyHqnjRe3E" />
-        </Helmet> 
+        <Helmet titleTemplate=" Tuo Shi" defaultTitle="Tuo Shi" />
         <Header />
         <div id="main">
           {this.props.children}

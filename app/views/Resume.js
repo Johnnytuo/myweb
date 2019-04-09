@@ -14,7 +14,7 @@ import courses from '../data/resume/courses';
 import degrees from '../data/resume/degrees';
 import positions from '../data/resume/positions';
 import { skills, categories } from '../data/resume/skills';
-import pdf from '../../public/images/resume.pdf';
+// import pdf from '../../public/images/resume.pdf';
 import { PDFReader } from 'react-read-pdf';
 
 const sections = [
@@ -31,7 +31,7 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2><a href = {pdf} target = "_blank">Resume  (pdf download)</a></h2>
+          <h2><a href = ''target = "_blank">Resume  (pdf download)</a></h2>
           <div className="link-container">
             {sections.map(sec => (
               <h4 key={sec}>

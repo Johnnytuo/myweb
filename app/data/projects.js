@@ -1,20 +1,19 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc: 'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'Waterflow',
+    subtitle: '2015 BVP Hackathon'  ,
+    link: 'http://13.59.51.91/Demo/',
+    image: '/images/projects/waterflow.jpg',
+    date: '2019-03-20',
+    desc: 'A facebook like social media website. '
+      + 'You can post,comment,like the posts. '
+      + 'You can also search, add and chat with friends '
+      + 'Applied chatting systems, YouTube API, post word frequency',
   }, {
-    title: 'Harvest',
+    title: 'Android ',
     subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
+    image: '/images/projects/android1.jpg',
     date: '2015-09-20',
     desc: 'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
       + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
@@ -28,16 +27,7 @@ const data = [
     desc: 'Launched a potato battery powered weather balloon with two cameras '
       + 'and gps transponder. Resulting photos were published in a coffee table book. '
       + 'You can email me for a copy.',
-  }, {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/project/catdetector/',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc: 'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-     + 'Over 60,000 cats were classified before server bills made the project too expensive '
-     + 'to continue hosting.',
-  },
+  }, 
 ];
 
 export default data;
