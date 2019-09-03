@@ -5,7 +5,12 @@ export const categories = [
   {
     name: 'Data Science',
     color: '#515dd4',
-  }, {
+  },  
+   {
+    name: 'Big Data',
+    color: '#C48424',
+  },
+  {
     name: 'Databases',
     color: '#3896e2',
   }, {
@@ -43,13 +48,35 @@ export const categories = [
 ];
 
 export const skills = [
+
   {
-    title: 'Javascript',
+    title: 'ReactJS',
     compentency: 5,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Web Development', 'Frameworks', 'Javascript'],
   },
   {
-    title: 'React',
+    title: 'CreatJS',
+    compentency: 5,
+    category: ['Web Development', 'Frameworks', 'Javascript'],
+  },
+  {
+    title: 'Spring Boot',
+    compentency: 5,
+    category: ['Web Development', 'Frameworks',],
+  },
+  {
+    title: 'Spring Cloud',
+    compentency: 5,
+    category: ['Web Development', 'Frameworks'],
+  },
+  {
+    title: 'Gin',
+    compentency: 5,
+    category: ['Web Development', 'Frameworks',],
+  },
+
+  {
+    title: 'Node.js',
     compentency: 4,
     category: ['Web Development', 'Frameworks', 'Javascript'],
   },
@@ -59,59 +86,69 @@ export const skills = [
     category: ['Web Development', 'Frameworks'],
   },
   {
-    title: 'Amazon Web Services',
-    compentency: 2,
+    title: 'AWS EC2',
+    compentency: 5,
+    category: ['Web Development', 'Tools'],
+  },
+  {
+    title: 'AWS S3',
+    compentency: 5,
     category: ['Web Development', 'Tools'],
   },
   {
     title: 'Hadoop',
-    compentency: 2,
-    category: ['Data Science', 'Tools'],
+    compentency: 4,
+    category: ['Big Data'],
+  },
+  {
+    title: 'MapReduce',
+    compentency: 4,
+    category: ['Big Data'],
   },
   {
     title: 'Spark',
-    compentency: 2,
-    category: ['Data Science', 'Tools'],
+    compentency: 4,
+    category: ['Big Data', ],
   },
   {
     title: 'HDFS',
-    compentency: 2,
-    category: ['Data Science', 'Tools'],
+    compentency: 4,
+    category: ['Big Data',],
   },
   {
     title: 'Heroku',
-    compentency: 2,
+    compentency: 4,
     category: ['Web Development', 'Tools'],
   },
   {
     title: 'MongoDB',
     compentency: 4,
-    category: ['Web Development', 'Databases'],
+    category: ['Databases'],
   },
   {
     title: 'MySQL',
     compentency: 4,
-    category: ['Web Development', 'Databases'],
+    category: ['Databases'],
   },
   {
     title: 'Redis',
     compentency: 4,
-    category: ['Web Development', 'Databases'],
+    category: ['Databases'],
   },
   {
     title: 'Cassandra',
     compentency: 4,
-    category: ['Web Development', 'Databases'],
+    category: ['Databases'],
   },
   {
     title: 'Neo4j',
     compentency: 4,
-    category: ['Web Development', 'Databases'],
+    category: ['Databases'],
   },
   {
     title: 'Oracle',
     compentency: 5,
-    category: ['Web Development', 'Databases'],
+    category: ['Databases'],
   },
  {
     title: 'KNN',
@@ -125,13 +162,48 @@ export const skills = [
   },
   {
     title: 'Git',
-    compentency: 3,
+    compentency: 5,
     category: ['Tools'],
   },
   {
     title: 'Docker',
+    compentency: 5,
+    category: ['Tools'],
+  },
+  {
+    title: 'Kubernetes',
     compentency: 3,
-    category: ['Tools','Web Development'],
+    category: ['Tools'],
+  },
+  {
+    title: 'MyBatis',
+    compentency: 4,
+    category: ['Tools'],
+  },
+  {
+    title: 'RabbitMQ',
+    compentency: 4,
+    category: ['Tools'],
+  },
+  {
+    title: 'Kafka',
+    compentency: 4,
+    category: ['Tools'],
+  },
+  {
+    title: 'RocketMQ',
+    compentency: 4,
+    category: ['Tools'],
+  },
+  {
+    title: 'Nginx',
+    compentency: 4,
+    category: ['Tools'],
+  },
+  {
+    title: 'Netty',
+    compentency: 4,
+    category: ['Tools'],
   },
   {
     title: 'Numpy',
@@ -165,13 +237,33 @@ export const skills = [
     category: ['Languages'],
   },
   {
+    title: 'Golang',
+    compentency: 4,
+    category: ['Languages'],
+  },
+  {
+    title: 'Solidity',
+    compentency: 4,
+    category: ['Languages'],
+  },
+  {
+    title: 'C',
+    compentency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'Shell',
+    compentency: 3,
+    category: ['Languages'],
+  },
+  {
     title: 'R',
     compentency: 3,
     category: ['Languages'],
   },
   {
     title: 'PHP',
-    compentency: 4,
+    compentency: 3,
     category: ['Languages'],
   },
   {
@@ -215,11 +307,6 @@ export const skills = [
     title: 'Bloomberg',
     compentency: 4,
     category: ['Finance'],
-  },
-  {
-    title: 'Django',
-    compentency: 4,
-    category: ['Frameworks'],
   },
   {
     title: 'Flask',
