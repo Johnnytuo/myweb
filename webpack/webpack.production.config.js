@@ -80,7 +80,10 @@ export default {
       }, {
         test: /\.html$/,
         loader: 'raw-loader',
-      },
+    }, {
+        test: /\.pdf$/,
+        loader: 'url-loader'
+      }
     ],
   },
 };

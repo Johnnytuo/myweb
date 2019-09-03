@@ -66,7 +66,7 @@ export default {
       },
       {
         test: /\.pdf$/,
-        loader: 'file-loader'
+        loader: 'url-loader'
       }
     ],
   },
