@@ -31,7 +31,7 @@ const Resume = () => (
     <article className="post" id="resume">
       <header>
         <div className="title">
-          <h2>Resume  (pdf download)</h2>
+          <h2><a href={resume}>Resume  (pdf download)</a></h2>
           <div className="link-container">
             {sections.map(sec => (
               <h4 key={sec}>
