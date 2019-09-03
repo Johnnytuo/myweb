@@ -36,6 +36,10 @@ export const categories = [
     name: 'Web Development',
     color: '#cc7b94',
   },
+  {
+    name: 'Frameworks',
+    color: '#FFD700',
+  },
 ];
 
 export const skills = [
@@ -43,11 +47,6 @@ export const skills = [
     title: 'Javascript',
     compentency: 5,
     category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: 'Node.JS',
-    compentency: 4,
-    category: ['Web Development', 'Frameworks', 'Javascript'],
   },
   {
     title: 'React',
@@ -65,6 +64,21 @@ export const skills = [
     category: ['Web Development', 'Tools'],
   },
   {
+    title: 'Hadoop',
+    compentency: 2,
+    category: ['Data Science', 'Tools'],
+  },
+  {
+    title: 'Spark',
+    compentency: 2,
+    category: ['Data Science', 'Tools'],
+  },
+  {
+    title: 'HDFS',
+    compentency: 2,
+    category: ['Data Science', 'Tools'],
+  },
+  {
     title: 'Heroku',
     compentency: 2,
     category: ['Web Development', 'Tools'],
@@ -76,6 +90,21 @@ export const skills = [
   },
   {
     title: 'MySQL',
+    compentency: 4,
+    category: ['Web Development', 'Databases'],
+  },
+  {
+    title: 'Redis',
+    compentency: 4,
+    category: ['Web Development', 'Databases'],
+  },
+  {
+    title: 'Cassandra',
+    compentency: 4,
+    category: ['Web Development', 'Databases'],
+  },
+  {
+    title: 'Neo4j',
     compentency: 4,
     category: ['Web Development', 'Databases'],
   },
@@ -186,5 +215,30 @@ export const skills = [
     title: 'Bloomberg',
     compentency: 4,
     category: ['Finance'],
+  },
+  {
+    title: 'Django',
+    compentency: 4,
+    category: ['Frameworks'],
+  },
+  {
+    title: 'Flask',
+    compentency: 4,
+    category: ['Frameworks','Web Development'],
+  },
+  {
+    title: 'Django',
+    compentency: 4,
+    category: ['Frameworks','Web Development'],
+  },
+  {
+    title: 'J2EE',
+    compentency: 4,
+    category: ['Frameworks','Web Development'],
+  },
+  {
+    title: 'Laravel',
+    compentency: 3,
+    category: ['Frameworks','Web Development'],
   },
 ];

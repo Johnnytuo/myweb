@@ -9,10 +9,18 @@ const data = [
       + 'You can post,comment,like the posts. '
       + 'You can also search, add and chat with friends '
       + 'Applied chatting systems, YouTube API, post word frequency',
-  }, {
+  }, 
+  {
+    title: 'Ucook-Django based web application',
+    image: '/images/projects/Ucook.jpg',
+    date: '2019-4-1',
+    desc: 'A Django based web application where user can post their address to invite others to a party.'
+          +'Implemented ',
+  }, 
+  {
     title: 'Android Application',
     image: '/images/projects/marvel.jpg',
-    date: '2019-4-1',
+    date: '2019-3-1',
     desc: 'An Android application where users can search Marvel pictures and get analyzed reports in web Dashboard'
   }, {
     title: 'Kaggle-Kobe Bryant Shot Selection',
