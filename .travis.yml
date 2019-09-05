@@ -37,8 +37,5 @@ script:
 - npm run build-dev
 - npm run build
 - npm test
-notifications:
-  email:
-  - michael.l.dangelo@gmail.com
 git:
   depth: 10
